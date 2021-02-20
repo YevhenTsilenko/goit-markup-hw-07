@@ -1,0 +1,48 @@
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  .clients & {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .footer & {
+      display: flex;
+  }
+
+  .header & {
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
+
+  .hero & {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  } 
+
+  .portfolio-section & {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .specification & {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team & {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
