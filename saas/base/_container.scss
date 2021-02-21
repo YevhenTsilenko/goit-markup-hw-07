@@ -4,45 +4,31 @@
   padding-right: 15px;
   margin: 0 auto;
 
-  .clients & {
-    display: flex;
+  .clients &, 
+  .hero & {
+    @include flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    }
+  }
 
-    .footer & {
-      display: flex;
+  .footer & {
+    @include flex;
   }
 
   .header & {
-    display: flex;
-    align-items: center;
+    @include flex;
     height: 80px;
   }
 
-  .hero & {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-  } 
-
   .portfolio-section & {
-    display: flex;
+    @include flex;
     flex-direction: column;
-    align-items: center;
+    
   }
 
-  .specification & {
-    display: flex;
-    flex-direction: column;
-  }
-
+  .specification &,
   .team & {
     display: flex;
     flex-direction: column;
-
   }
 }

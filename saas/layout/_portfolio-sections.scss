@@ -4,8 +4,7 @@
 }
 
 .portfolio-section-list {
-    display: flex;
-    align-items: center;
+    @include flex;
     margin-bottom: 50px;
 }
 

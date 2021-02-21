@@ -3,17 +3,15 @@
 }  
 
 .navigation {
-    display: flex;
-    align-items: center;
+    @include flex;
 }
 
 .contact-list {
-    display: flex;
+    @include flex;
 }
 
 .navigation-list {
-    display: flex;
-    align-items: center;
+    @include flex;
     position: relative;
 }
 
@@ -82,8 +80,7 @@
 }
 
 .contact-list-item {
-    display: flex;
-    align-items: center;
+    @include flex;
 
     &:not(:first-child) {
         margin-left: 30px;
@@ -116,13 +113,11 @@
 }
 
 .header-mail {
-    display: flex;
-    align-items: center; 
+    @include flex; 
 }
 
 .header-phone {
-    display: flex;
-    align-items: center; 
+    @include flex; 
 }
 
 .phone-icon {

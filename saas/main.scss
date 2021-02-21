@@ -1,11 +1,12 @@
 //UTILS
 @import "./units/variables";
 @import "./units/visually-hidden";
+@import "./units/mixins";
 //BASE
 @import "./base/common";
 @import "./base/container";
 //COMPONENTS
-@import "./components/_modal-btn";
+@import "./components/btn";
 @import "./components/social-links";
 @import "./components/logo";
 @import "./components/title";
